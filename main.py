@@ -85,6 +85,7 @@ if Query or Channel:
             with col1:
                 st.image(video["Url"], use_column_width=True)
             with col2:
+                st.write(f"**{video['Title']}**")
                 a, b = st.columns([1, 2])
                 with a:
                     st.write(f"Views: {video['View_Count']}")

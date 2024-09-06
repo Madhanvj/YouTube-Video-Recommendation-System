@@ -1,4 +1,0 @@
-Pandas
-Streamlit
-Pickle
-Psycopg2
